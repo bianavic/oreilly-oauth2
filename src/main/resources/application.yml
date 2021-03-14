@@ -1,0 +1,9 @@
+spring:
+  security:
+    oauth2:
+      client:
+        registration:
+          google:
+            client-id: YOUR CLIENT ID GOES HERE
+            client-secret: YOUR CLIENT SECRET GOES HERE
+            redirect-uri: http://localhost:8080/login/oauth2/code/google
